@@ -14,8 +14,9 @@
     "react-native",
     "responsive-ui",
     "responsive-view",
-    "responsive-screen",
-    "responsive-screen-fonts",
+    "responsive-screens",
+    "responsive-screens-fonts",
+    "ios-ipad-fonts",
     "responsive"
   ],
   "author": "Israr Shaikh <shaikh.coder20@gmail.com> (https://github.com/israr-shaikh)",
