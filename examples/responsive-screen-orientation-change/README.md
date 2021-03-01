@@ -1,4 +1,4 @@
-This is an example repository that contains a sample setup of react-native-responsive-screen package with support of device orientation changes.
+This is an example repository that contains a sample setup of react-native-responsive-screens-fonts package with support of device orientation changes.
 
 # Usage
 

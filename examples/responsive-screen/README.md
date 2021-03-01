@@ -1,4 +1,4 @@
-This is an example repository that contains a sample setup of `react-native-responsive-screen` package.
+This is an example repository that contains a sample setup of `react-native-responsive-screens-fonts` package.
 
 # Usage
 
