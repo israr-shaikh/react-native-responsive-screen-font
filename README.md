@@ -10,9 +10,6 @@
 
 # react-native-responsive-screens-fonts
 
-[![npm version](https://badge.fury.io/js/react-native-responsive-screen.svg)](https://www.npmjs.com/package/react-native-responsive-screens-fonts)
-[![npm](https://img.shields.io/npm/dm/react-native-responsive-screen.svg)]()
-
 <i>react-native-responsive-screens-fonts</i> is a small library that provides 2 simple methods so that React Native developers can code their UI elements fully responsive. No media queries needed.
 
 It also provides an optional third method for screen orientation detection and automatic rerendering according to new dimensions.
