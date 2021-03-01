@@ -2,19 +2,19 @@
 
 import type { Component } from "react";
 
-declare export function normalWidth(
+declare export function widthPercentageToDP(
   widthPercent: string | number
 ): number;
 
-declare export function normalHeight(
+declare export function heightPercentageToDP(
   heightPercent: string | number
 ): number;
 
-declare export function iPadWidth(
+declare export function widthPercentageToFonts(
   widthPercent: string | number
 ): number;
 
-declare export function iPadHeight(
+declare export function heightPercentageToFonts(
   heightPercent: string | number
 ): number;
 

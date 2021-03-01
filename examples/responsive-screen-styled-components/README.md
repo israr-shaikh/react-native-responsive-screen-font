@@ -3,8 +3,11 @@ This is an example repository that contains a sample setup of react-native-respo
 # Usage
 
 ```javascript
-import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
-import styled from 'styled-components';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screens-fonts";
+import styled from "styled-components";
 
 class Login extends Component {
   render() {
@@ -23,12 +26,12 @@ const Container = styled.View`
 `;
 
 const TextWrapper = styled.View`
-  height: ${hp('70%')};
-  width: ${wp('80%')};
+  height: ${hp("70%")};
+  width: ${wp("80%")};
 `;
 
 const Login = styled.Text`
-  font-size: ${hp('5%')};
+  font-size: ${hp("5%")};
 `;
 
 export default Login;

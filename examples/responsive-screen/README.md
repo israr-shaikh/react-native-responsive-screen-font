@@ -1,8 +1,12 @@
 This is an example repository that contains a sample setup of `react-native-responsive-screen` package.
 
 # Usage
+
 ```javascript
-import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
+import {
+  widthPercentageToDP as wp,
+  heightPercentageToDP as hp,
+} from "react-native-responsive-screens-fonts";
 
 class Login extends Component {
   render() {
@@ -19,12 +23,12 @@ class Login extends Component {
 const styles = StyleSheet.create({
   container: { flex: 1 },
   textWrapper: {
-    height: hp('70%'), // 70% of height device screen
-    width: wp('80%')   // 80% of width device screen
+    height: hp("70%"), // 70% of height device screen
+    width: wp("80%"), // 80% of width device screen
   },
   myText: {
-    fontSize: hp('5%') // End result looks like the provided UI mockup
-  }
+    fontSize: hp("5%"), // End result looks like the provided UI mockup
+  },
 });
 
 export default Login;

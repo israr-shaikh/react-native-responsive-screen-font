@@ -1,10 +1,6 @@
-# Help with maintenance would be appreciated!
-
-#### If interested please send me an email: tasos.maroudas@codedlines.com
-
 # Contents
 
-- [The package](#react-native-responsive-screen)
+- [The package](#react-native-responsive-screens-fonts)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
@@ -12,12 +8,12 @@
 - [License](#license)
 - [Pull Requests](#pull)
 
-# react-native-responsive-screen
+# react-native-responsive-screens-fonts
 
-[![npm version](https://badge.fury.io/js/react-native-responsive-screen.svg)](https://www.npmjs.com/package/react-native-responsive-screen)
+[![npm version](https://badge.fury.io/js/react-native-responsive-screen.svg)](https://www.npmjs.com/package/react-native-responsive-screens-fonts)
 [![npm](https://img.shields.io/npm/dm/react-native-responsive-screen.svg)]()
 
-<i>react-native-responsive-screen</i> is a small library that provides 2 simple methods so that React Native developers can code their UI elements fully responsive. No media queries needed.
+<i>react-native-responsive-screens-fonts</i> is a small library that provides 2 simple methods so that React Native developers can code their UI elements fully responsive. No media queries needed.
 
 It also provides an optional third method for screen orientation detection and automatic rerendering according to new dimensions.
 
@@ -29,7 +25,7 @@ Check out [this medium article](https://medium.com/react-native-training/build-r
 
 # Installation
 
-`npm install react-native-responsive-screen --save`
+`npm install react-native-responsive-screens-fonts --save`
 
 # Usage
 
@@ -42,11 +38,6 @@ Check out [this medium article](https://medium.com/react-native-training/build-r
 - There are 2 more methods to use if you want to support responsiveness along with orientation change. These are `listenOrientationChange` and `removeOrientationListener`. To see how to use them, check example number 3.
 - You can use this package along with `styled-components`. To see how to do that, check example number 2.
 
-# Updates 🚀
-
-- `v1.4.0` onwards: The library now has flowtype support. Types should work out of the box, no additional setup needed.
-- `widthPercentageToDP` and `heightPercentageToDP` methods accept numeric values as well from version 1.2.1 onwards. That being said a width of 53% can now be written both `width: widthPercentageToDP('53%')` and `width: widthPercentageToDP(53)`.
-
 # Examples
 
 ## 1. How to use with StyleSheet.create() and without orientation change support
@@ -55,7 +46,9 @@ Check out [this medium article](https://medium.com/react-native-training/build-r
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
-} from "react-native-responsive-screen";
+  widthPercentageToFonts as wf,
+  heightPercentageToFonts as hf,
+} from "react-native-responsive-screens-fonts";
 
 class Login extends Component {
   render() {
@@ -76,7 +69,7 @@ const styles = StyleSheet.create({
     width: wp("80%"), // 80% of width device screen
   },
   myText: {
-    fontSize: hp("5%"), // End result looks like the provided UI mockup
+    fontSize: wf("5%"), // End result looks like the provided UI mockup but uses of widthPercentageToFonts as wf will provide better font size for small and big devices like ios, Ipad and Tablet as well.                          
   },
 });
 
