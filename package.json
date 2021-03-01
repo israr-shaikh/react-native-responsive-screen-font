@@ -1,32 +1,34 @@
 {
-  "name": "react-native-responsive-screen",
-  "version": "1.4.2",
-  "description": "Make React Native views responsive for all devices with the use of 2 simple methods.",
+  "name": "react-native-responsive-screens-fonts",
+  "version": "1",
+  "description": "Make React Native views responsive for all devices screens and fonts with the use of 4 simple methods.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marudy/react-native-responsive-screen.git"
+    "url": "git+https://github.com/israr-shaikh/react-native-responsive-screens-fonts.git"
   },
   "keywords": [
     "react-native",
     "responsive-ui",
     "responsive-view",
     "responsive-screen",
+    "responsive-screen-fonts",
     "responsive"
   ],
   "author": "Tasos Maroudas <maroudasa@gmail.com> (https://github.com/marudy)",
   "contributors": [
     "Tasos Maroudas <maroudasa@gmail.com> (https://github.com/marudy)",
-    "Chrysa Kaia <kaia.chrysa@gmail.com> (https://github.com/ckaia)"
+    "Chrysa Kaia <kaia.chrysa@gmail.com> (https://github.com/ckaia)",
+    "Israr Shaikh <shaikh.coder20@gmail.com> (https://github.com/israr-shaikh)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marudy/react-native-responsive-screen/issues"
+    "url": "https://github.com/israr-shaikh/react-native-responsive-screens-fonts/issues"
   },
-  "homepage": "https://github.com/marudy/react-native-responsive-screen#readme",
+  "homepage": "https://github.com/israr-shaikh/react-native-responsive-screens-fonts#readme",
   "peerDependencies": {
     "react-native": ">=0.35"
   }

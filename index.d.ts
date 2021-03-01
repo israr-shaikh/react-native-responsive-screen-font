@@ -1,4 +1,4 @@
-declare module 'react-native-responsive-screen' {
+declare module 'react-native-responsive-screens-fonts' {
   import { Component } from 'react';
 
   export function normalWidth(widthPercent: string | number): number;
