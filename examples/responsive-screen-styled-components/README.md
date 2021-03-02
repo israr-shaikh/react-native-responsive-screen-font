@@ -1,4 +1,4 @@
-This is an example repository that contains a sample setup of react-native-responsive-screens-fonts package with use of styled components.
+This is an example repository that contains a sample setup of react-native-responsive-screen-font package with use of styled components.
 
 # Usage
 
@@ -6,7 +6,7 @@ This is an example repository that contains a sample setup of react-native-respo
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
-} from "react-native-responsive-screens-fonts";
+} from "react-native-responsive-screen-font";
 import styled from "styled-components";
 
 class Login extends Component {

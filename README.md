@@ -1,6 +1,6 @@
 # Contents
 
-- [The package](#react-native-responsive-screens-fonts)
+- [The package](#react-native-responsive-screen-font)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
@@ -8,9 +8,9 @@
 - [License](#license)
 - [Pull Requests](#pull)
 
-# react-native-responsive-screens-fonts
+# react-native-responsive-screen-font
 
-<i>react-native-responsive-screens-fonts</i> is a small library that provides 4 simple methods so that React Native developers can code their UI elements fully responsive. No media queries needed.
+<i>react-native-responsive-screen-font</i> is a small library that provides 4 simple methods so that React Native developers can code their UI elements fully responsive. No media queries needed.
 
 It also provides an optional third method for screen orientation detection and automatic rerendering according to new dimensions.
 
@@ -22,11 +22,11 @@ Check out [this medium article](https://medium.com/react-native-training/build-r
 
 # Installation
 
-`npm install react-native-responsive-screens-fonts --save`
+`npm install react-native-responsive-screen-font --save`
 
-or 
+or
 
-`yarn add react-native-responsive-screens-fonts`
+`yarn add react-native-responsive-screen-font`
 
 # Usage
 
@@ -49,7 +49,7 @@ import {
   heightPercentageToDP as hp,
   widthPercentageToFonts as wf,
   heightPercentageToFonts as hf,
-} from "react-native-responsive-screens-fonts";
+} from "react-native-responsive-screen-font";
 
 class Login extends Component {
   render() {
@@ -70,26 +70,26 @@ const styles = StyleSheet.create({
     width: wp("80%"), // 80% of width device screen
   },
   myText: {
-    fontSize: wf("5%"), 
-    // End result looks like the provided 
+    fontSize: wf("5%"),
+    // End result looks like the provided
     // UI mockup but uses of widthPercentageToFonts as wf
     // will provide better font size for small and big devices
-    // like ios, Ipad and Tablet as well.                          
+    // like ios, Ipad and Tablet as well.
   },
 });
 
 export default Login;
 ```
 
-You can find a working example of this over the [related example repository](https://github.com/israr-shaikh/react-native-responsive-screens-fonts/blob/master/examples/responsive-screen/README.md)
+You can find a working example of this over the [related example repository](https://github.com/israr-shaikh/react-native-responsive-screen-font/blob/master/examples/responsive-screen/README.md)
 
 ## 2. How to use with StyleSheet.create() and with orientation change support
 
-Check the README of the [related example repository](https://github.com/israr-shaikh/react-native-responsive-screens-fonts/blob/master/examples/responsive-screen-orientation-change/README.md)
+Check the README of the [related example repository](https://github.com/israr-shaikh/react-native-responsive-screen-font/blob/master/examples/responsive-screen-orientation-change/README.md)
 
 ## 3. How to use with styled components
 
-Check the README of the [related example repository](https://github.com/israr-shaikh/react-native-responsive-screens-fonts/blob/master/examples/responsive-screen-styled-components/README.md)
+Check the README of the [related example repository](https://github.com/israr-shaikh/react-native-responsive-screen-font/blob/master/examples/responsive-screen-styled-components/README.md)
 
 # How do I know it works for all devices ?
 

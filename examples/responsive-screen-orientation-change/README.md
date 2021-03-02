@@ -1,4 +1,4 @@
-This is an example repository that contains a sample setup of react-native-responsive-screens-fonts package with support of device orientation changes.
+This is an example repository that contains a sample setup of react-native-responsive-screen-font package with support of device orientation changes.
 
 # Usage
 
@@ -13,7 +13,7 @@ import {
   heightPercentageToDP as hp,
   listenOrientationChange as lor,
   removeOrientationListener as rol,
-} from "react-native-responsive-screens-fonts";
+} from "react-native-responsive-screen-font";
 
 class Login extends Component {
   componentDidMount() {

@@ -6,7 +6,7 @@ import {
   heightPercentageToDP,
   listenOrientationChange,
   removeOrientationListener,
-} from "react-native-responsive-screens-fonts";
+} from "react-native-responsive-screen-font";
 
 export default class App extends React.Component {
   componentWillMount() {

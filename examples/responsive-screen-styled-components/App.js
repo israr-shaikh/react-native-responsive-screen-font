@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Dimensions } from "react-native";
 import {
   widthPercentageToDP,
   heightPercentageToDP,
-} from "react-native-responsive-screens-fonts";
+} from "react-native-responsive-screen-font";
 import styled from "styled-components";
 
 export default class App extends React.Component {

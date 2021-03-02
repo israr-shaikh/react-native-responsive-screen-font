@@ -1,4 +1,4 @@
-This is an example repository that contains a sample setup of `react-native-responsive-screens-fonts` package.
+This is an example repository that contains a sample setup of `react-native-responsive-screen-font` package.
 
 # Usage
 
@@ -6,7 +6,7 @@ This is an example repository that contains a sample setup of `react-native-resp
 import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
-} from "react-native-responsive-screens-fonts";
+} from "react-native-responsive-screen-font";
 
 class Login extends Component {
   render() {

@@ -5,8 +5,8 @@ import {
   widthPercentageToDP,
   heightPercentageToDP,
   widthPercentageToFonts,
-  heightPercentageToFonts
-} from "react-native-responsive-screens-fonts";
+  heightPercentageToFonts,
+} from "react-native-responsive-screen-font";
 
 export default class App extends React.Component {
   render() {
@@ -43,6 +43,6 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "white",
-    fontSize: widthPercentageToFonts("3%") //this will give you better font results in ipad and ios also
+    fontSize: widthPercentageToFonts("3%"), //this will give you better font results in ipad and ios also
   },
 });
